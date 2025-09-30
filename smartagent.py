@@ -4,7 +4,7 @@ import requests
 # --- CONFIGURATION ---
 # IMPORTANT: Replace with your actual n8n Webhook URL
 # This is the URL you get from the n8n Webhook node (use the 'Production URL' for a deployed app)
-N8N_WEBHOOK_URL = "http://localhost:5678/webhook/shopping-request" 
+N8N_WEBHOOK_URL = "http://localhost:5678/webhook/dbc2a5a8-9e81-4f1c-af89-14719296abdf" 
 
 # --- UI & STYLING ---
 
