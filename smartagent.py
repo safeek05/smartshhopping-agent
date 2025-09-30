@@ -16,41 +16,19 @@ st.set_page_config(
 )
 
 # Custom CSS for a cleaner look
+# Custom CSS for a cleaner look
 def local_css():
     css = """
     <style>
         /* General styling */
         .stApp {
-            background-color: #f0f2f6;
+            background-color: #111827; /* Dark background */
+            color: #ffffff; /* White text for readability */
         }
-        /* Style the submit button */
-        .stButton>button {
-            width: 100%;
-            border: 2px solid #4CAF50;
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .stButton>button:hover {
-            background-color: #45a049;
-            border-color: #45a049;
-            color: white;
-        }
-        /* Style the result box */
-        .result-box {
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 8px;
-            background-color: #ffffff;
-            line-height: 1.6;
-        }
+    ...
     </style>
     """
     st.markdown(css, unsafe_allow_html=True)
-
 # Apply the custom CSS
 local_css()
 
